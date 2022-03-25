@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "build-contracts": "sol-merger --export-plugin SPDXLicenseRemovePlugin ./contracts/forbitspace.sol ./build"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.4"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
+    "@openzeppelin/contracts": "^4.3.1",
+    "dotenv": "^10.0.0",
+    "eth-create2-calculator": "^1.1.5",
+    "ethereumjs-util": "^7.1.0",
+    "hardhat-gas-reporter": "^1.0.4",
+    "sol-merger": "^3.1.0"
+  }
+}
